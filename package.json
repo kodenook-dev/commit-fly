@@ -1,0 +1,20 @@
+{
+    "name": "commit-fly",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
+    },
+    "devDependencies": {
+        "@nuxt/devtools": "latest",
+        "@nuxt/eslint": "^0.5.2",
+        "@nuxt/ui": "^2.18.4",
+        "nuxt": "^3.12.4"
+    }
+}
